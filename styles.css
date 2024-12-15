@@ -1,0 +1,73 @@
+/*DRY the code here*/
+body, ul, a{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+header, footer{
+    background-color: black;
+}
+
+/*Default Styles*/
+body{
+    background-color: rgb(71, 71, 71);
+    font-family: sans-serif, Helvetica, Arial;
+}
+
+header{
+    color: aqua;
+    padding: 20px 0 10px 60px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+li:first-child{
+    margin-right: 100px;
+}
+
+.lists.column{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+  text-decoration: none;  
+}
+
+a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+.feature-box.close{
+    background-color: rgb(212, 212, 212);
+    color: black;
+    padding: 150px;
+}
+
+section div{
+    color: black;
+    background-color: white;
+    padding: 100px;
+    margin-bottom: 5px;
+}
+
+.div.about{
+    padding-left: 300px;
+}
+
+.social.link a{
+    color: black;
+}
+
+footer{
+    color: white;
+    padding: 10px;
+}
