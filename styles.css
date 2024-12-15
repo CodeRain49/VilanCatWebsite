@@ -25,11 +25,11 @@ ul{
 
 li{
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
-li:first-child{
-    margin-right: 100px;
+li:nth-child(2){
+    margin-right: 50px;
 }
 
 .lists.column{
@@ -46,25 +46,25 @@ a:hover{
     color: aqua;
 }
 
-.feature-box.close{
-    background-color: rgb(212, 212, 212);
-    color: black;
-    padding: 150px;
-}
-
 section div{
     color: black;
     background-color: white;
-    padding: 100px;
-    margin-bottom: 5px;
+    padding: 100px; 
 }
 
 .div.about{
-    padding-left: 300px;
+    padding: 10px 0 50px 160px;
+    margin-bottom: 5px;
 }
 
 .social.link a{
     color: black;
+}
+
+.contactlists div{
+    background-color: white;
+    color: black;
+    padding: 20px 0 20px 100px;
 }
 
 footer{
