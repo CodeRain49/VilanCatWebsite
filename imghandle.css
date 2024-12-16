@@ -1,4 +1,4 @@
-header .logo a{
+.logo a{
     width: 32px;
     height: 32px;
     display: inline-block;
@@ -7,22 +7,37 @@ header .logo a{
     top: -9px
 }
 
-header .logo.home a{
+/*Header*/
+.logo.title{ 
+    background-image: url("images/vilancat\ title.png");
+    background-repeat: no-repeat;
+    background-size: 150px auto ;
+    /* width: 530px;
+    height: 110px; */
+    
+}
+.logo.home a{
     background-image: url("images/home\ logo.png");
     left: -105px;
 }
-header .logo.art a{
+.logo.art a{
     background-image: url("images/art\ logo.png");
     left: -85px;
 }
-header .logo.games a{
+.logo.games a{
     background-image: url("images/games\ logo.png");
     left: -115px;
 }
-header .logo.contact a{
+.logo.contact a{
     background-image: url("images/contact\ logo.png");
     left: -125px;
 }
+
+.logo.itchio a{
+    background-image: url("images/itchio\ logo.png");
+    left: -20px;
+}
+
 
 .contactlists img{
     position: relative;
