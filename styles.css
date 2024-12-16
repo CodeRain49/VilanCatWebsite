@@ -47,12 +47,32 @@ a:hover{
     top: -1px
 }
 
-
 section div{
-    color: black;
+    color: rgb(30, 30, 30);
     background-color: white;
-    padding: 100px; 
+    padding: 15px 0 100px 15px; 
 }
+
+/*Games page*/
+section div .screenshot{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+div h2{
+    padding-left: 15px;
+    text-decoration: underline;
+} 
+div p{
+    padding: 0 10px 0 10px;
+    color: rgb(32, 32, 32);
+    font-style: oblique;
+}
+.screenshot a{
+    color: black;
+    margin-left: 15px;
+}
+
 
 .div.about{
     padding: 10px 0 50px 160px;
